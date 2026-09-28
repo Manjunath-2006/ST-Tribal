@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">SMPT</string>
+    <string name="app_full_name">Scholarship Management Portal for Tribes</string>
+    <string name="app_tagline">Your Tribal Scholarship Journey, One Place.</string>
+    <string name="department_name">Ministry of Tribal Affairs</string>
+    <string name="government_name">Government of India</string>
+    <string name="unified_subtitle">Unified Scholarship &amp; Fellowship Services</string>
+    <string name="prototype_label">Prototype / Mock Data</string>
+    <string name="prototype_demo">Prototype Demo</string>
+    <string name="prototype_verification">Prototype Verification</string>
+    <string name="prototype_integration">Prototype / Mock Integration</string>
+    <string name="demo_integration">Demo Integration</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_scholarships">Scholarships</string>
+    <string name="nav_applications">Applications</string>
+    <string name="nav_payments">Payments</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">All your scholarships in one place</string>
+    <string name="onboarding_desc_1">Track applications, verification, sanctions and payments from a single dashboard.</string>
+    <string name="onboarding_title_2">Less repeated paperwork</string>
+    <string name="onboarding_desc_2">Reuse verified documents and information wherever applicable.</string>
+    <string name="onboarding_title_3">Know what to do next</string>
+    <string name="onboarding_desc_3">Get personalized guidance and assistance through JAGO.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_resolve_now">Resolve Now</string>
+    <string name="btn_check_eligibility">Check Eligibility</string>
+    <string name="btn_apply_now">Apply Now</string>
+    <string name="btn_track_application">Track Application</string>
+    <string name="btn_run_conflict_check">Run Conflict Check</string>
+    <string name="btn_upload_document">Upload Document</string>
+    <string name="btn_view_requirement">View Requirement</string>
+    <string name="btn_ask_jago">Ask JAGO</string>
+    <string name="btn_view_application">View Application</string>
+    <string name="btn_view_payment">View Payment</string>
+    <string name="btn_view_action">View Action</string>
+    <string name="btn_check_scholarships">Check Scholarships</string>
+    <string name="btn_explore_scholarships">Explore Scholarships</string>
+    <string name="btn_view_details">View Details</string>
+    <string name="btn_demo_login">Demo Login</string>
+    <string name="btn_submit_application">Submit Application</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_mobile_label">Mobile Number</string>
+    <string name="login_mobile_prefix">+91</string>
+    <string name="login_otp_label">OTP</string>
+    <string name="login_demo_otp">Demo OTP: 123456</string>
+    <string name="login_student_id">Continue with registered student ID</string>
+
+    <!-- Profile -->
+    <string name="profile_setup">Profile Setup</string>
+    <string name="profile_basic">Basic Details</string>
+    <string name="profile_education">Education</string>
+    <string name="profile_eligibility">Eligibility Details</string>
+    <string name="profile_documents">Documents</string>
+    <string name="why_we_need_this">Why do we need this?</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="scholarship_overview">Your Scholarship Overview</string>
+    <string name="active_scholarship">Active Scholarship</string>
+    <string name="applications_count">Applications</string>
+    <string name="action_required">Action Required</string>
+    <string name="payments_received">Payments Received</string>
+    <string name="current_scholarship">Current Scholarship</string>
+
+    <!-- Scholarships -->
+    <string name="find_scholarship">Find a Scholarship</string>
+    <string name="search_scholarship">Search scholarship</string>
+    <string name="pre_matric">Pre-Matric Scholarship</string>
+    <string name="post_matric">Post-Matric Scholarship</string>
+    <string name="top_class">Top Class Scholarship</string>
+    <string name="nfst">National Fellowship for ST Students (NFST)</string>
+    <string name="nos">National Overseas Scholarship (NOS)</string>
+
+    <!-- Eligibility -->
+    <string name="eligibility_check">Eligibility Check</string>
+    <string name="why_eligible">Why you may be eligible</string>
+    <string name="eligibility_subject">Eligibility is subject to verification.</string>
+    <string name="still_to_verify">Still to verify</string>
+
+    <!-- Conflict -->
+    <string name="existing_scholarship_check">Existing Scholarship Check</string>
+    <string name="conflict_warning">Your current scholarship status may affect your new application.</string>
+    <string name="conflict_result">SMPT has identified an existing scholarship. The new application should be checked against applicable scheme rules before submission.</string>
+
+    <!-- Application -->
+    <string name="application_readiness">Application Readiness</string>
+    <string name="app_ready">Your application is ready to submit.</string>
+    <string name="actions_required_before">%d actions required before submission.</string>
+
+    <!-- Verification -->
+    <string name="unified_verification">Unified Verification</string>
+    <string name="unified_verification_subtitle">See the verification status of your scholarship information in one place.</string>
+
+    <!-- Documents -->
+    <string name="my_documents">My Documents</string>
+    <string name="connect_digilocker">Connect DigiLocker</string>
+    <string name="reuse_document">Reuse verified document</string>
+
+    <!-- Payments -->
+    <string name="scholarship_payments">Scholarship Payments</string>
+    <string name="total_received">Total Received</string>
+    <string name="pending_amount">Pending</string>
+    <string name="dbt_explanation">Scholarship payments are transferred through Direct Benefit Transfer (DBT) to the registered bank account.</string>
+
+    <!-- JAGO -->
+    <string name="jago_title">JAGO</string>
+    <string name="jago_subtitle">Your Scholarship Assistant</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+
+    <!-- Ministry Insights -->
+    <string name="ministry_insights">Ministry Insights</string>
+
+    <!-- Scholarship Awareness -->
+    <string name="scholarship_awareness">Scholarship Awareness</string>
+    <string name="awareness_message">You may be eligible for scholarship support.</string>
+    <string name="awareness_detail">Your education information indicates that you may qualify for one or more Ministry of Tribal Affairs scholarship schemes.</string>
+
+    <!-- Status -->
+    <string name="status_verified">Verified</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_needs_review">Needs Review</string>
+    <string name="status_not_available">Not Available</string>
+    <string name="status_processing">Processing</string>
+    <string name="status_credited">Credited</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_complete">Complete</string>
+
+    <!-- Connectivity -->
+    <string name="offline_title">You\'re offline</string>
+    <string name="offline_message">Showing your last available scholarship information.</string>
+    <string name="last_updated">Last updated</string>
+    <string name="connection_restored">Scholarship information updated.</string>
+
+    <!-- Errors -->
+    <string name="error_load">Unable to load scholarship information.</string>
+    <string name="error_connection">Please check your internet connection and try again.</string>
+
+    <!-- Empty -->
+    <string name="empty_applications">No active applications</string>
+    <string name="empty_applications_desc">You haven\'t submitted a scholarship application yet.</string>
+
+    <!-- Government Systems -->
+    <string name="existing_systems">Existing Scholarship Systems</string>
+    <string name="verification_sources">Government &amp; Institutional Verification Sources</string>
+
+    <!-- Help -->
+    <string name="help">Help</string>
+    <string name="no_action_required">No action required</string>
+    <string name="no_action_desc">Your applications are progressing normally.</string>
+
+    <!-- Languages -->
+    <string name="language_selection">Language</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SMPT</string>
+    <string name="app_full_name">जनजातीय छात्रवृत्ति प्रबंधन पोर्टल</string>
+    <string name="app_tagline">आपकी जनजातीय छात्रवृत्ति यात्रा, एक जगह।</string>
+    <string name="department_name">जनजातीय कार्य मंत्रालय</string>
+    <string name="government_name">भारत सरकार</string>
+    <string name="nav_home">होम</string>
+    <string name="nav_scholarships">छात्रवृत्ति</string>
+    <string name="nav_applications">आवेदन</string>
+    <string name="nav_payments">भुगतान</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+    <string name="btn_continue">जारी रखें</string>
+    <string name="btn_next">अगला</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_get_started">शुरू करें</string>
+</resources>
