@@ -112,7 +112,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
     // Generate intelligent AI JAGO reply
     setTimeout(() => {
-      let replyText = 'I am JAGO, your MoTA Scholarship Assistant. All 5 MoTA ST schemes (Pre-Matric, Post-Matric, NFST, NOS, Top Class) are active on SMPT.';
+      let replyText = 'I am JAGO, your MoTA Scholarship Assistant. All 5 MoTA ST schemes (Pre-Matric, Post-Matric, NFST, NOS, Top Class) are active on EKLAVYAONE.';
       const lower = text.toLowerCase();
       
       if (lower.includes('income') || lower.includes('deficiency') || lower.includes('renew')) {

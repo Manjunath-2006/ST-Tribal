@@ -365,7 +365,7 @@ export const MinistryInsightsScreen: React.FC<{ navigation: any }> = ({ navigati
       <PrototypeTag />
       <InfoRow label="Total ST Beneficiaries Covered" value="35.4 Lakh Students" />
       <InfoRow label="Total DBT Funds Disbursed" value="₹2,480 Crores" />
-      <InfoRow label="Average Application Clearance Time" value="14 Days (via SMPT)" />
+      <InfoRow label="Average Application Clearance Time" value="14 Days (via EKLAVYAONE)" />
       <InfoRow label="DigiLocker Verification Accuracy" value="99.4%" />
     </ScrollView>
   </View>
@@ -395,7 +395,7 @@ export const ExistingSystemsScreen: React.FC<{ navigation: any }> = ({ navigatio
           <Text style={styles.cardSectionTitle}>{sys.name} ({sys.shortName})</Text>
           <Text style={styles.descText}>{sys.purpose}</Text>
           <InfoRow label="Integration Status" value={sys.integrationStatus} />
-          <InfoRow label="Role in SMPT" value={sys.roleInSMPT} />
+          <InfoRow label="Role in EKLAVYAONE" value={sys.roleInEklavyaOne} />
         </View>
       ))}
     </ScrollView>
@@ -409,7 +409,7 @@ export const HelpScreen: React.FC<{ navigation: any }> = ({ navigation }) => (
       <Text style={styles.sectionTitle}>MoTA Toll-Free Helpline</Text>
       <PrototypeTag />
       <InfoRow label="National Toll-Free" value="1800-11-7788" />
-      <InfoRow label="MoTA Support Email" value="support-smpt@mota.gov.in" />
+      <InfoRow label="MoTA Support Email" value="support-eklavyaone@mota.gov.in" />
       <InfoRow label="Working Hours" value="9:30 AM - 6:00 PM (Mon-Fri)" />
     </ScrollView>
   </View>

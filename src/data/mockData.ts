@@ -45,7 +45,7 @@ export const MOCK_SCHEMES: ScholarshipScheme[] = [
     benefitDescription: 'Financial support for tuition fees, books, and monthly stipend for ST students studying in classes IX & X.',
     amountPerYear: 7500,
     deadline: '31 October 2026',
-    applicationMode: 'State e-District / Integrated SMPT Portal',
+    applicationMode: 'State e-District / Integrated EKLAVYAONE Portal',
     verifyingAuthorities: ['School Headmaster', 'District Tribal Welfare Officer', 'State Nodal Department']
   },
   {
@@ -59,7 +59,7 @@ export const MOCK_SCHEMES: ScholarshipScheme[] = [
     benefitDescription: 'Comprehensive funding covering full non-refundable course fees, maintenance allowance, and book grants for post-secondary ST students.',
     amountPerYear: 36000,
     deadline: '15 November 2026',
-    applicationMode: 'SMPT Federated Direct Portal',
+    applicationMode: 'EKLAVYAONE Federated Direct Portal',
     verifyingAuthorities: ['Institution Nodal Officer (AISHE)', 'District Tribal Development Officer', 'State Tribal Welfare Dept']
   },
   {
@@ -73,7 +73,7 @@ export const MOCK_SCHEMES: ScholarshipScheme[] = [
     benefitDescription: 'Financial assistance to ST students for pursuing M.Phil and Ph.D. degrees in Indian Universities & Research Institutes.',
     amountPerYear: 370000,
     deadline: '30 November 2026',
-    applicationMode: 'SMPT Fellowship Module',
+    applicationMode: 'EKLAVYAONE Fellowship Module',
     verifyingAuthorities: ['University Registrar', 'UGC/NTA Verification Engine', 'Ministry of Tribal Affairs Central Cell']
   },
   {
@@ -101,7 +101,7 @@ export const MOCK_SCHEMES: ScholarshipScheme[] = [
     benefitDescription: 'Full tuition fee waiver, living expenses, computer allowance, and books grant for ST students admitted to top notification institutes.',
     amountPerYear: 240000,
     deadline: '20 November 2026',
-    applicationMode: 'SMPT Top Class Premier Portal',
+    applicationMode: 'EKLAVYAONE Top Class Premier Portal',
     verifyingAuthorities: ['Dean of Student Affairs', 'State Nodal Officer', 'MoTA Central Nodal Agency']
   }
 ];
@@ -117,7 +117,7 @@ export const MOCK_APPLICATIONS: ScholarshipApplication[] = [
     nextAction: 'Re-verify Income Certificate on DigiLocker or Upload Fresh Document',
     estimatedDisbursement: '₹36,000 (Batch 2 Expected Nov 2026)',
     stages: [
-      { stageId: 1, title: 'Application Submission', status: 'COMPLETED', dateCompleted: '12 Aug 2026', remarks: 'Submitted via SMPT Portal' },
+      { stageId: 1, title: 'Application Submission', status: 'COMPLETED', dateCompleted: '12 Aug 2026', remarks: 'Submitted via EKLAVYAONE Portal' },
       { stageId: 2, title: 'Student Identity & ST Caste Verification', status: 'COMPLETED', dateCompleted: '14 Aug 2026', remarks: 'Auto-verified via DigiLocker / State e-District API' },
       { stageId: 3, title: 'Institution Verification (AISHE)', status: 'COMPLETED', dateCompleted: '20 Aug 2026', remarks: 'Verified by Principal, Govt Arts & Science College, Ooty' },
       { stageId: 4, title: 'District Tribal Welfare Verification', status: 'IN_PROGRESS', dateCompleted: undefined, remarks: 'Deficiency flag raised regarding income certificate expiry' },
@@ -166,7 +166,7 @@ export const MOCK_VERIFICATION_ITEMS: VerificationItem[] = [
   { id: 'V5', title: 'Automated Permanent Academic Account Registry', authority: 'APAAR / Academic Bank of Credits', status: 'VERIFIED', lastChecked: '28 Sep 2026', referenceNumber: 'APAAR-9908-1123-4567', details: 'Academic credits synced for 1st Year B.Sc' },
   { id: 'V6', title: 'Bank Account & Aadhaar Seeding', authority: 'NPCI / PFMS DBT Gateway', status: 'VERIFIED', lastChecked: '28 Sep 2026', referenceNumber: 'DBT-MAP-9921', details: 'Canara Bank (A/c ****9812) - Active DBT Seeded' },
   { id: 'V7', title: 'School Level Educational Record', authority: 'UDISE+ Portal', status: 'VERIFIED', lastChecked: '20 Sep 2026', referenceNumber: 'UDISE-33090100412', details: '10th & 12th Board Records Authenticated' },
-  { id: 'V8', title: 'Single Scheme Conflict Verification', authority: 'SMPT Federated Central Engine', status: 'VERIFIED', lastChecked: '28 Sep 2026', referenceNumber: 'CLEARED-NO-DUPLICATE', details: 'No active duplicate benefit from NSP or State Portals' }
+  { id: 'V8', title: 'Single Scheme Conflict Verification', authority: 'EKLAVYAONE Federated Central Engine', status: 'VERIFIED', lastChecked: '28 Sep 2026', referenceNumber: 'CLEARED-NO-DUPLICATE', details: 'No active duplicate benefit from NSP or State Portals' }
 ];
 
 export const MOCK_GOVERNMENT_SOURCES: GovernmentDataSource[] = [
@@ -181,9 +181,9 @@ export const MOCK_GOVERNMENT_SOURCES: GovernmentDataSource[] = [
 ];
 
 export const MOCK_EXISTING_SYSTEMS: ExistingSystem[] = [
-  { id: 'E1', name: 'National Scholarship Portal', shortName: 'NSP 2.0', purpose: 'Centralized government scholarship application portal', integrationStatus: 'FEDERATED', roleInSMPT: 'Cross-checks duplicate scheme claims to prevent double dipping.' },
-  { id: 'E2', name: 'State Tribal Welfare Portals', shortName: 'SFMP (State Systems)', purpose: 'State-managed tribal welfare disbursement systems', integrationStatus: 'FEDERATED', roleInSMPT: 'Syncs state-share funding (60:40 ratio) seamlessly into SMPT.' },
-  { id: 'E3', name: 'NOS International Portal', shortName: 'NOS MoTA Cell', purpose: 'Legacy portal for National Overseas Scholarship for ST students', integrationStatus: 'MIGRATED', roleInSMPT: 'Fully unified into SMPT single window for international studies.' }
+  { id: 'E1', name: 'National Scholarship Portal', shortName: 'NSP 2.0', purpose: 'Centralized government scholarship application portal', integrationStatus: 'FEDERATED', roleInEklavyaOne: 'Cross-checks duplicate scheme claims to prevent double dipping.' },
+  { id: 'E2', name: 'State Tribal Welfare Portals', shortName: 'SFMP (State Systems)', purpose: 'State-managed tribal welfare disbursement systems', integrationStatus: 'FEDERATED', roleInEklavyaOne: 'Syncs state-share funding (60:40 ratio) seamlessly into EKLAVYAONE.' },
+  { id: 'E3', name: 'NOS International Portal', shortName: 'NOS MoTA Cell', purpose: 'Legacy portal for National Overseas Scholarship for ST students', integrationStatus: 'MIGRATED', roleInEklavyaOne: 'Fully unified into EKLAVYAONE single window for international studies.' }
 ];
 
 export const MOCK_PAYMENTS: Payment[] = [

@@ -22,7 +22,7 @@ export const ScholarshipsScreen: React.FC<{ navigation: any }> = ({ navigation }
 
       <ScrollView style={styles.content} contentContainerStyle={{ paddingBottom: 30 }}>
         <Text style={styles.headerSubtitle}>
-          Official Ministry of Tribal Affairs Schemes Unified under SMPT Single Window
+          Official Ministry of Tribal Affairs Schemes Unified under EKLAVYAONE Single Window
         </Text>
 
         <PrototypeTag />

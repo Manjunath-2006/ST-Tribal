@@ -91,7 +91,7 @@ export interface ExistingSystem {
   shortName: string;
   purpose: string;
   integrationStatus: 'MIGRATED' | 'FEDERATED' | 'DEPRECATED_SWAPPED';
-  roleInSMPT: string;
+  roleInEklavyaOne: string;
 }
 
 export interface Payment {

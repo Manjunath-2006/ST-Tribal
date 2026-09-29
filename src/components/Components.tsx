@@ -31,7 +31,7 @@ export const GovernmentHeader: React.FC<{
 export const PrototypeTag: React.FC<{ style?: object }> = ({ style }) => (
   <View style={[styles.prototypeBadge, style]}>
     <Ionicons name="information-circle-outline" size={14} color={Colors.statusAmber} />
-    <Text style={styles.prototypeText}>Prototype / Mock Data • SIH 2026 MoTA</Text>
+    <Text style={styles.prototypeText}>EKLAVYAONE Prototype / Mock Data • SIH 2026 MoTA</Text>
   </View>
 );
 

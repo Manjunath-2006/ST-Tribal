@@ -21,7 +21,7 @@ export const HomeScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <GovernmentHeader
-        title="Scholarship Management Portal for Tribes"
+        title="EKLAVYAONE - Portal for Tribes"
         rightAction={
           <TouchableOpacity onPress={() => navigation.navigate('Jago')}>
             <Ionicons name="sparkles" size={24} color={Colors.accentSaffron} />
